@@ -1,5 +1,4 @@
 #include <conio.h>
-#include <locale.h>
 #include <math.h>
 #include <stdio.h>
 
@@ -291,7 +290,6 @@ void zadacha2() {
 }
 
 int main() {
-  setlocale(LC_ALL, "");
   zadacha2();
 
   // cout << (5 & 0) ? "&1\n" : "!&1\n";
